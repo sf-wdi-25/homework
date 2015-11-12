@@ -46,7 +46,8 @@ Each day you will submit your homework by doing the following from within your h
 * Create a pull request according to the guidelines below.
 * Note that if your previous Pull Request (PR) has not yet been merged, you won't be able to create a new one.  The old one will be automatically updated since it's on the same branch.
 
-#### Pull request details
+
+### Pull request details
 
 (Must be in this format)
 
@@ -64,6 +65,9 @@ Message about your experience goes here
 ```
 
 Replace the `#`s next to comfort and completness with a number (1 - 5) to represent how comfortable you are with the topic and how much of the assignment you were able to complete.  A 1 is the lowest (least comfortable / very little complete), and a 5 is the highest (most comfortable / fully complete).
+
+### Cloning other repos.
+Throughout this course you'll be asked to clone many other repositories (repos).  When you do so, make sure you first `cd ~/dev`.  If you run `git clone` while inside of another repository, or if you copy one repository inside of another it will create a nested repo.  We cannot easily work with or see the files in nested repos.  
 
 # Command Glossary
 
