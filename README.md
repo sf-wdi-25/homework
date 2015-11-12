@@ -8,29 +8,39 @@ To set up your initial homework repository follow these instructions.  You shoul
 Note in the below:
 - **GIT-USER-NAME** should be replaced with your actual git user name (must be exact)
 - **YOUR NAME** should be your actual name.
+- **clone URL from GITHUB** this URL is in a small box on the right-hand side of the main page of each Github Repository.  Copy it and replace this text.
 
-
+### Fork & Clone
 1. Using the github website, fork this repo to create a copy of it on your github account.
 2. Clone the forked repo from your github account onto your computer inside your `dev/` directory.  The **clone URL** is in a small text-box on the right-side of a repository's main page.
   ```bash
   cd ~/dev
-  git clone {{**clone** URL from github}}
+
+  git clone {{**clone URL from github**}}
   ```
   Note: if you don't have a `dev` directory yet, you may need to create it: `mkdir ~/dev`.
 3. `cd` into the newly cloned repo on your computer.
 4. Make a copy of the directory template using your github username as the new name.
+   ```bash
+   cp -a zz_template **GIT-USER-NAME**
 
-  `cp -a zz_template **GIT-USER-NAME**`
+   git add .
 
+   git commit -m "created my directory"
+   ```
 5. `cd **GIT-USER-NAME**`
-6.  `cd week-01`
-7.  Change Directories into today's directory.  For example, if today is Tuesday:
-  `cd day-02`
+6.  Change Directories into today's directory.  For example, if today is Tuesday
+  ```bash
+  cd week-01
+  
+  cd day-02
+  ```
 9. `echo "**YOUR NAME**'s Homework repo" > README.md` to set up your repo's README
 8. `git add README.md` to stage your change.
-9. `git commit -m "inital commit"` to have git save your changes.
+9. `git commit -m "first day"` to have git save your changes.
 10. `git push origin master` to put your changes up on github!
 
+Next go on and submit this homework following the below instructions:
 
 
 ## Submit homework
