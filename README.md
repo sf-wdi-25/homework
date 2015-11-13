@@ -8,7 +8,7 @@ To set up your initial homework repository follow these instructions.  You shoul
 Note in the below:
 - **GIT-USER-NAME** should be replaced with your actual git user name (must be exact)
 - **YOUR NAME** should be your actual name.
-- **clone URL from GITHUB** this URL is in a small box on the right-hand side of the main page of each Github Repository.  Copy it and replace this text.
+- **CLONE URL FROM GITHUB** this URL is in a small box on the right-hand side of the main page of each Github Repository.  Copy it and replace this text.
 
 ### Fork & Clone
 1. Using the github website, fork this repo to create a copy of it on your github account.
@@ -16,7 +16,7 @@ Note in the below:
   ```bash
   cd ~/dev
 
-  git clone {{**clone URL from github**}}
+  git clone {{**CLONE URL FROM GITHUB**}}
   ```
   Note: if you don't have a `dev` directory yet, you may need to create it: `mkdir ~/dev`.
 3. `cd` into the newly cloned repo on your computer.
@@ -32,7 +32,7 @@ Note in the below:
 6.  Change Directories into today's directory.  For example, if today is Tuesday
   ```bash
   cd week-01
-  
+
   cd day-02
   ```
 9. `echo "**YOUR NAME**'s Homework repo" > README.md` to set up your repo's README
