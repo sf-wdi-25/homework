@@ -18,7 +18,7 @@ Note in the below:
 
   git clone {{**CLONE URL FROM GITHUB**}}
   ```
-  Note: if you don't have a `dev` directory yet, you may need to create it: `mkdir ~/dev`.
+  Note: if you don't have a `dev` directory yet, you may need to create it first: `mkdir ~/dev`.
 3. `cd` into the newly cloned repo on your computer.
 4. Make a copy of the directory template using your github username as the new name.
    ```bash
@@ -28,17 +28,8 @@ Note in the below:
 
    git commit -m "created my directory"
    ```
-5. `cd **GIT-USER-NAME**`
-6.  Change Directories into today's directory.  For example, if today is Tuesday
-  ```bash
-  cd week-01
-
-  cd day-02
-  ```
-9. `echo "**YOUR NAME**'s Homework repo" > README.md` to set up your repo's README
-8. `git add README.md` to stage your change.
-9. `git commit -m "first day"` to have git save your changes.
-10. `git push origin master` to put your changes up on github!
+5. `git push origin master` to put your changes up on github!
+6. You should now be able to go to github and make a pull-request from your fork of the repo, to ours!
 
 Next go on and submit this homework following the below instructions:
 
