@@ -31,44 +31,14 @@ Note in the below:
 5. `git push origin master` to put your changes up on github!
 6. You should now be able to go to github and make a pull-request from your fork of the repo, to ours!
 
-Next go on and submit this homework following the below instructions:
 
+## Submitting homework
 
-## Submit homework
+When submitting homework to this repo follow the instructions in the course notes (modules) repository or the homework itself.  
+Labs will generally not be submitted as pull-requests to this repository.
 
-Each day you will submit your homework by doing the following from within your homework repo on your computer:
-
-* Copy any required files into the current week and day of your homework repo directory.
-* For each file you need to include: `git add **FILENAME**` to stage your changes.
-* `git status` to make sure you've selected the right files.
-* `git commit -m "homework commit"` to have git save the changes -- feel free to add to the commit message if you'd like.
-* `git push origin master` to put the changes up on github.
-* Go to your homework repo's page on your account on `github.com`.
-* Create a pull request according to the guidelines below.
-* Note that if your previous Pull Request (PR) has not yet been merged, you won't be able to create a new one.  The old one will be automatically updated since it's on the same branch.
-
-
-### Pull request details
-
-(Must be in this format)
-
-**Title:** `w##d##`
-
-Replace ## with week and day number (eg w01d02  = homework for week 1 day 2)
-
-**Message:**
-
-```
-comfort: #
-completeness: #
-
-Message about your experience goes here
-```
-
-Replace the `#`s next to comfort and completness with a number (1 - 5) to represent how comfortable you are with the topic and how much of the assignment you were able to complete.  A 1 is the lowest (least comfortable / very little complete), and a 5 is the highest (most comfortable / fully complete).
-
-### Cloning other repos.
-Throughout this course you'll be asked to clone many other repositories (repos).  When you do so, make sure you first `cd ~/dev`.  If you run `git clone` while inside of another repository, or if you copy one repository inside of another it will create a nested repo.  We cannot easily work with or see the files in nested repos.  
+## Cloning other repos.
+Throughout this course you'll be asked to clone many other repositories (repos).  When you do so, make sure you first `cd ~/dev`.  If you run `git clone` while inside of another repository, or if you copy one repository inside of another it will create a nested repo.  We cannot easily work with nor see the files in nested repos.  
 
 # Command Glossary
 
