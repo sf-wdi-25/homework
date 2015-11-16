@@ -6,7 +6,7 @@ Homework will be turned in to your fork of this repository daily.
 
 To set up your initial homework repository follow these instructions.  You should only need to do this once.  
 Note in the below:
-- **GIT-USER-NAME** should be replaced with your actual git user name (must be exact)
+- **GITHUB-USER-NAME** should be replaced with your actual git user name (must be exact)
 - **CLONE-URL-FROM-GITHUB** this URL is in a small box on the right-hand side of the main page of each Github Repository.  Copy it and replace this text.
 
 ### Fork & Clone
@@ -21,7 +21,7 @@ Note in the below:
 3. `cd` into the newly cloned repo on your computer.
 4. Make a copy of the directory template using your github username as the new name.
    ```bash
-   cp -a zz_template GIT-USER-NAME
+   cp -a zz_template GITHUB-USER-NAME
 
    git add .
 
