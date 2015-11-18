@@ -1,75 +1,62 @@
-What is the outcome of the following expressions?
+Strings
 
-1. true || false
+var firstnName="Doug";
+var lastName="Tsui";
+var fullName= firstName + " " + lastName;
 
-true
+var nameArray= fullName.split (" ");
 
-2. false && false
+typeof fullName;
+typeof nameArray;
 
-false
-
-3. true && false
-
-false
-
-4. (false || true) && true
-
-true
-
-5. false && ((true || false) && (false || true))
-
-false
-
-Which of the following are truthy values? (hint: try if("abc"){console.log("I'm truthy!")} in the JS console)
-
-Truthy Value:
-1
-3.14159
-"abc"
 Array
-[]
-Object
-{}
 
-What is the outcome of the following expressions?
+1. var fourthFriend = friends[3];
 
-1. true && 6
+2. friends[5]="Liz";
 
-true
+3. friends.push("Doug");
 
-2. 0 || "hi"
+friends.unshift("Homer");
 
-true
+friends.sort();
 
-3. ["a","b","c"] || "123"
+Object Literals
 
-true
+1.
 
-4. {"key":"value"} || false
+var Dad = {firstName: "John", lastName:"Doe", age:36}
+Dad.streetName ="1234 Park St."
 
-true
+2.
 
-List all the falsy values in Javscript.
-0
-""
-Undefined
-null
-NaN
+var Mom = {firstName: "Jane" , lastName:"Doe", age:32, streetname: "1239 Spark St."}
+var Daughter = {firstName:"Mary" , lastName:"Doe", age:31, streetname:"1231 Spark St."}
+var Son = {firstName:"Greg" , lastName:"Doe", age:34, streetname:"1214 Park St."}
+var Cousin = {firstName:"Harriet" , lastName:"Doe", age:32, streetname:"1324 Park St."}
 
-Login (was done in class)
+BONUS Challenge
+1. 
+var allFriends=myFriends.concat(yourFriends);
+allFriends.sort();
 
-Superman?
+2. Well, I think you have to go in understanding that the order of the array foods is an
+array in descending order listing your favorite foods from top to bottom.
 
-if((isBirdlike && isPlanelike) && !hasFeathers && !isMadeOfMetal){
-	console.log("It's superman!");
-} elseif(hasFeathers){
-	console.log("Nope, it's a bird.");
-} elseif(isMadeOfMetal){
-	console.log("Nope, it's a plane.");
-} else{
-	console.log("Not sure what that was.");
-}
+Therefore if you do
 
-Make it a SloppyBurger
+foods.indexOf("food") + 1;
+
+where food is what you're interested in, you'll find how much you like a particular food.
+You add one, because Array index starts at 0.
+
+3.
+
+food.indexOf("Donut");
+food.splice(i,1);
+
+i is the index of donut
+
+Ran out of time for the rest of the challenges.
 
 
