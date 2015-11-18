@@ -1,0 +1,8 @@
+/*can't figure out why this isn't working*/
+img {
+  width: 280px;
+  height: 280px;
+  background: #1e90ff;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
