@@ -1,0 +1,63 @@
+Strings
+
+1)var firstName= "Danny";
+var lastName= "Chan";
+2)var fullName = firstName + " " + lastName;
+3)fullName.split();
+4)typeof fullName.split(" ");
+
+Arrays
+1)
+var friends = [
+  "Moe",
+  "Larry",
+  "Curly",
+  "Jane",
+  "Emma",
+  "Elizabeth",
+  "Greg",
+  "Lydia"
+];
+
+friends[3];
+2)friends[6] = "Liz";
+3)friends.push("Danny");
+4)friends.sort();
+
+Object Literals
+1) var person = {name :"John", lastName: "Doe", address: "1234 Park St."}
+person["address"] = "1234 Park Ln."
+
+2) var person1 = {name: "Jane", lastName: "Doe", age: 36, address: "1239 Spark St."}
+var person2 = {name: "Mary", lastName: "Doe", age: 32, address: "1231 Spark St."}
+var person3 = {name: "Greg", lastName: "Doe", age: 34, address: "1214 Park St."}
+var person4 = {name: "Harriet", lastName: "Doe", age: 32, address: "1324 Park St."}
+
+var names= [person1['name'],person2['name'],person3['name'],person4['name']];
+
+
+Strech Challenges
+1)
+var myFriends = [
+  "Rickon",
+  "Meera",
+  "Hodor",
+  "Jojen",
+  "Osha",
+  "Rickard",
+  "Maester"
+];
+
+var yourFriends = [
+  "Bilbo",
+  "Boromir",
+  "Elrond",
+  "Faramir",
+  "Frodo",
+  "Gandalf",
+  "Legolas",
+  "Pippin"
+];
+var newArray = myFriends.concat(yourFriends)
+newArray.sort();
+
