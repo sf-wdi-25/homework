@@ -89,3 +89,64 @@ snippets:///1_34:1 undefined
 
         [Object, Object, Object, Object]
 snippets:///1_37:1 undefined
+
+var myFriends = [
+  "Rickon",
+  "Meera",
+  "Hodor",
+  "Jojen",
+  "Osha",
+  "Rickard",
+  "Maester"
+];
+
+var yourFriends = [
+  "Bilbo",
+  "Boromir",
+  "Elrond",
+  "Faramir",
+  "Frodo",
+  "Gandalf",
+  "Legolas",
+  "Pippin"
+];
+var both = [myFriends + yourFriends]
+console.log(both)
+["Rickon,Meera,Hodor,Jojen,Osha,Rickard,MaesterBilbo…romir,Elrond,Faramir,Frodo,Gandalf,Legolas,Pippin"]0: "Rickon,Meera,Hodor,Jojen,Osha,Rickard,MaesterBilbo,Boromir,Elrond,Faramir,Frodo,Gandalf,Legolas,Pippin"length: 1__proto__: Array[0]
+snippets:///1_43:1 undefined
+
+var foods = [
+  "Popcorn",
+  "Potato chips",
+  "Shrimp",
+  "Tacos",
+  "French toast",
+  "Crab",
+  "Pho",
+  "Lasagna",
+  "Brownie",
+  "Lobster",
+  "Donuts",
+  "Ice cream",
+  "Hamburger",
+  "Sushi",
+  "Chocolate",
+  "Pizza"
+];
+foods[2]
+Shrimp
+
+foods.indexOf("Donuts")
+2
+
+foods.splice(10)
+console.log(foods)
+
+["Popcorn", "Potato chips", "Shrimp", "Tacos", "French toast", "Crab", "Pho", "Lasagna", "Brownie", "Lobster"]
+snippets:///1_82:1 undefined
+
+var friend = foods.slice(4, 11)
+console.log(friend)
+
+["French toast", "Crab", "Pho", "Lasagna", "Brownie", "Lobster", "Donuts"]
+snippets:///1_89:1 undefined
