@@ -94,6 +94,23 @@ foods.splice((indexOf("Donuts")), 1);
 foods.indexOf("Donuts");
 <!-- Gave me index position of 10 to use for the splice -->
 foods.splice(10, 1);
+<!-- Removing 1 element from index 10 -->
 
 4:
+
+var friendsCuriosity = foods.slice(4, 9);
+<!-- Slicing out 5th (position 4) up to (non-inclusive) 10th (position 9) favourite foods and writing 'em into new array ' -->
+
+5:
+
+<!-- I couldn;t come up with how to do this with *just* string & array methods. I tried declaring a new var array 'i' equal to 'friends', to take the string and turn it into an array. That returned an array with one long string element from friends. But from here, the only next move I can think of (before using sort() ), is to use the split method at each comma to break the string into elements. So I tried to use i.split(comma) but was told that i.split isn't a function (do not understand why). Regardless, plodded onwards, this time ignoring my previous i variable and just splitting the existing friends string variable (still using (comma)) into a new friendsArray array, and that seemed to do the trick. Still cannot see how to accomplish this *without* using split method as well -->
+var i = [friends];
+var comma = ',';
+var friendsArray = i.split(comma);
+<!-- failsauce... "TypeError: i.split is not a function" -->
+
+var comma = ',';
+var friendsArray = friends.split(comma);
+friendsArray.sort();
+<!-- Huzzah, well done, Johnson! http://i.imgur.com/XuL1hL9.jpg . Pip pip cheerio, Watson! -->
 
