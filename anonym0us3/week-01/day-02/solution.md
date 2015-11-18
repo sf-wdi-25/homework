@@ -48,3 +48,20 @@ friends.unshift("anothername")
 
 friends.sort()
 <!-- almost worked. All the names except for "anothername" were sorted alphabetically, don't know if that's because capital letters have lower bit 'values' or higher priorities (???) than lowercase letters. Ran secondary test with new name of "Joe" and that **did** alphabetize correctly along with the rest of the other names (splice or pop out "anothername", and push in replacement) -->
+
+*Object Literals*
+
+1:
+
+var employee = { name: "John Doe", age: 36, address: "1239 Spark St."}
+<!-- voilà! -->
+employee.address = "1234 Park Ln"
+<!-- updates address field to new address -->
+
+2:
+
+var family = {
+	'name' : ['Jane Doe','Mary Doe','Greg Doe','Harriet Doe'],
+	'age' : [32,31,34,32],
+	'address' : ['1239 Spark St.','1231 Spark St.','1214 Park St.','1324 Park St.']
+}
