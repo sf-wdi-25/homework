@@ -65,3 +65,35 @@ var family = {
 	'age' : [32,31,34,32],
 	'address' : ['1239 Spark St.','1231 Spark St.','1214 Park St.','1324 Park St.']
 }
+
+
+*Stretch Challenges*
+
+1:
+
+Array.prototype.push.apply(myFriends, yourFriends);
+<!-- From WDN; adds the elements from yourFriends array into the myFriends array -->
+
+var myFriends = myFriends.concat(yourFriends);
+<!-- From W3S; cleaner (IMO) alternative which also makes more sense to me. The declared var can be the existing myFriends array or say something new, like combinedFriends; irrelevant for this function as result is the same -->
+
+myFriends.sort()
+<!-- Alpha sort of new elements in myFriends. **NOTE** The returned sorting is *not valid!!*. Correct sort would be something akin to this:
+['Legolas', 'Gandalf (The White)', 'Elrond', 'Gandalf (The Grey)', 'Maester', 'Frodo', 'Meera', 'Boromir', 'Jojen', 'Faramir', 'Osha', 'Bilbo', 'Hodor', 'Pippin', 'Rickard', 'Rickon']. If you disagree with me, then: http://i.imgur.com/uVPOoft.jpg -->
+
+2:
+
+foods.indexOf("Pho");
+<!-- returns '6', so Pho is your 7th favourite om noms -->
+
+3:
+
+foods.splice((indexOf("Donuts")), 1);
+<!-- Tried this first thinking I'd be creative and save some time, but it failed. Googling didn't turn up anything useful though, so went with the "long way" -->
+
+foods.indexOf("Donuts");
+<!-- Gave me index position of 10 to use for the splice -->
+foods.splice(10, 1);
+
+4:
+
