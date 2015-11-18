@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<!-- start every html file with head -->
+<head>
+  <!-- device renders width of page at width of screen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- set up bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <!-- specifies location of external stylesheet-->
+  <link rel="stylesheet" href="main_1.css">
+  <title>Meh Kittens</title>
+</head>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<form class="navbar-form">
+			<div class="form-group">
+				<input type="text" class="form-control glyphi" placeholder="Search">
+				<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span></button>
+			</div>
+		</form>
+		<ul class = "nav navbar-nav navbar-right">
+			<li><a href="javascript:void(0)">Home</a></li>
+			<li class ="active"><a href="javascript:void(0)">Kittens</a></li>
+			<li><a href="javascript:void(0)">About</a></li>
+			<li><a href="javascript:void(0)">Contact Meh</a></li>
+		</ul>
+	</div>
+</nav>
+
+<div class="container">
+	<h1>Kittens
+		<h2>We have great kittens</h2>
+	</h1>
+	<!-- <hr> = line break and literal line -->
+	<hr>
+	<div class="row">
+		<div class="col-md-4">
+		<!-- class "col-md-4" takes up 1/3 of page, -->
+		<!-- and the whole page on md devices -->
+ 			<img src="http://fatcatart.ru/wp-content/uploads/2011/02/Malevich_Red_Square-cat-sm.jpg" class="col-xs-12">
+			<h3>Kitten One</h3>
+				<p class="lead">This Kitteh is real sweet.</p>
+				<button class="btn btn-primary">Learn More</button>
+		</div>
+		<div class="col-md-4">
+			<img src="http://fatcatart.ru/wp-content/uploads/2011/02/Malevich_Red_Square-cat-sm.jpg" class="col-xs-12">
+			<h3>Kitten Two</h3>
+				<p class="lead">This little kitten will drink tea with you!</p>
+				<button class="btn btn-primary">Learn More</button>
+		</div>
+		<div class="col-md-4">
+			<img src="http://fatcatart.ru/wp-content/uploads/2011/02/Malevich_Red_Square-cat-sm.jpg" class="col-xs-12">
+			<h3>Kitten Three</h3>
+				<p class="lead">This kitten loves company.</p>
+				<button class="btn btn-primary" type="button">Kitten Massages</button>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+			<!-- class "col-sm-6" takes up 1/2 of page-->
+			<!-- and the whole page on sm devices -->
+				<hr>
+				<h2>Lorem Ipsum</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+			</div>
+			<div class="col-sm-6">
+				<hr>
+				<h2>Lorem Ipsum</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+			</div>
+			<div class="col-sm-6">
+			    <hr>
+			    	<h3 class="text-center">Email us at office@awesomeproduct.com</h3>
+			    <hr>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
