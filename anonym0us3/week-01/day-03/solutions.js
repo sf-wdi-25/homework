@@ -71,5 +71,17 @@ countVowels("stealing");
 #8 -  ascii triangle
 
 function printTriangle( length ) {
-	
+	var points = ("");
+	for(var i = 1; i <= length; i++) {
+		points += "*";
+		console.log(points);
+	}
 }
+printTriangle(3);
+
+#9 - hahaha, heck no!
+
+//Based on the example, the first star, is in the 5.5th position on the first row
+//On row 2, stars 2 and 3 are on the 5th & 6th positions
+//Row 3, stars 4, 5 and 6 are on the 4.5th, 5.5th and 6.5th positions, etc... .
+//Cannot begin to figure out how to build that
