@@ -149,4 +149,14 @@ var friend = foods.slice(4, 11)
 console.log(friend)
 
 ["French toast", "Crab", "Pho", "Lasagna", "Brownie", "Lobster", "Donuts"]
+
+var friends = "Moe,Larry,Curly,Jane,Emma,Elizabeth,Greg,Lydia";
+
+
+var split = friends.split(",")
+console.log(split)
+var final = split.sort()
+console.log(final)
+["Moe", "Larry", "Curly", "Jane", "Emma", "Elizabeth", "Greg", "Lydia"]
+Script snippet #1:7 ["Curly", "Elizabeth", "Emma", "Greg", "Jane", "Larry", "Lydia", "Moe"]
 snippets:///1_89:1 undefined
