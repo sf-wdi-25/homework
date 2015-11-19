@@ -49,3 +49,27 @@ function isXEvenlyDivisibleByY( x, y ) {
 }
 isXEvenlyDivisibleByY( 99, 3);
 
+#7 - vowel count
+
+function countVowels( word ) {
+	var str = word;
+	var lowerLetters = str.toLowerCase();
+	var lettersArray = lowerLetters.split( "" );
+	var vowels = 0; /*Keeps erroring that 'vowels' isn't defined. WTBbqAppleSauce?! It's defined right here!*/
+	lettersArray.forEach(function(count) {
+		if(count === "a" || count === "e" || count === "i" || count === "o" || count === "u" || count === "y") {
+			vowels++;
+		}
+	});
+} console.log(vowels);
+countVowels("stealing");
+
+//Cannot figure this out - keeps giving me various errors, either vowels isn't defined, or 'lowerLetters.split' 
+//isn't a function, or 'str.toLowerCase' isn't a function, or 'lettersArray.forEach' isn't a function
+// Tried simplifying by commenting-out .toLowerCase functionality, still broken and gives similar "not a function" or "not defined" errors
+
+#8 -  ascii triangle
+
+function printTriangle( length ) {
+	
+}
