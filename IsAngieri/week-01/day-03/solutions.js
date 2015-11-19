@@ -68,15 +68,61 @@ function printTriangle(length) {
 printTriangle(3);
 
 //9. Print Pyramid
-function printPyramid(length) {
+
+//various attempts/tests
+/*function printPyramid(length) {
 	var star = "";
 	var space = "";
-	for(a = length; a >= 0; a ++) {
-		console.log(space = space + " ");
-		for(a = 0; a <= length; a ++) {
-   	console.log(star = star + "*");
+	for(a = 0; a <= length; a ++) {
+   	star = star + "*");
+   	for(star = "*"; star <= length; space - " ") {
+   		console.log(" " + star);
+   	};
 	}
-}
 }
 
 printPyramid(3);
+
+function printPyramid(length) {
+	var star = "";
+	var space = " ";
+	for(a = 0; a <= length; a ++) {
+    console.log(star = space + star + "*");
+   	var b = length - a;
+   	for(b = 0; b <= length; b += length + 1) {
+        space + " ";
+   	}
+	}
+}
+
+printPyramid(8);
+
+function printPyramid(length) {
+	var star = "";
+	var space = " ";
+	for(a = 0; a * 2 <= length; a ++) {
+    console.log(star = space + star + "*");
+   	var b = length - a;
+   	for(b = length - 1; b >= 0; b) {
+        space + " ";
+   	}
+	}
+}
+
+printPyramid(8); */
+
+//working function
+function printPyramid(length) {
+    var star = "";
+    var space = " ";
+    for(a = 0; a <= length; a ++) {
+        star = star + "*";
+        if (star === "*") {
+            console.log(space.repeat(length - a) + star.repeat(1))
+        } else {
+            console.log(space.repeat(length - a) + star.repeat(1 + 1).slice(0, -1));
+        }
+    }
+}
+
+printPyramid(9);
