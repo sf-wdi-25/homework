@@ -30,3 +30,22 @@ function areaOfACircle ( radius ) {
 	console.log(Math.PI * radius * radius);
 }
 areaOfACircle( 2 );
+
+#5 - pythagorean theorem
+
+function pythagoreanTheorem( a, b ) {
+	console.log(Math.sqrt(Math.pow( a, 2 ) + Math.pow( b, 2 )));
+}
+pythagoreanTheorem( 3, 4 );
+
+#6 - x evenly divisible by y
+
+function isXEvenlyDivisibleByY( x, y ) {
+	if( x % y === 0) {
+		console.log(true);
+	} else {
+		console.log(false);
+	}
+}
+isXEvenlyDivisibleByY( 99, 3);
+
