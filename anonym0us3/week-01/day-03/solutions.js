@@ -61,7 +61,8 @@ function countVowels( word ) {
 			vowels++;
 		}
 	});
-} console.log(vowels);
+	console.log(vowels);
+} 
 countVowels("stealing");
 
 //Cannot figure this out - keeps giving me various errors, either vowels isn't defined, or 'lowerLetters.split' 
