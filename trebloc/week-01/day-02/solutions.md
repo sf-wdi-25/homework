@@ -35,4 +35,53 @@ var myFolks = [John, Mary, Greg, Harriet]
 
 myFolks
 
+//Stretch Challenges
+
+var myFriends = [
+  "Rickon",
+  "Meera",
+  "Hodor",
+  "Jojen",
+  "Osha",
+  "Rickard",
+  "Maester"
+];
+
+var yourFriends = [
+  "Bilbo",
+  "Boromir",
+  "Elrond",
+  "Faramir",
+  "Frodo",
+  "Gandalf",
+  "Legolas",
+  "Pippin"
+];
+
+var allFriends = myFriends.concat(yourFriends);
+console.log(allFriends);
+
+allFriends.sort();
+
+var foods = [
+  "Popcorn",
+  "Potato chips",
+  "Shrimp",
+  "Tacos",
+  "French toast",
+  "Crab",
+  "Pho",
+  "Lasagna",
+  "Brownie",
+  "Lobster",
+  "Donuts",
+  "Ice cream",
+  "Hamburger",
+  "Sushi",
+  "Chocolate",
+  "Pizza"
+];
+
+foods.indexOf("Pho");
+
 
