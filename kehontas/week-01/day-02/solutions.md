@@ -35,3 +35,5 @@ var Al = {firstName: "Al", lastName: "Bundy",  age: 46, address: "1234 Park St."
 var Sue = {firstName: "Sue", lastName: "Miller",  age: 56, address: "1234 Park St."}
 var Lucy = {firstName: "Lucy", lastName: "Ball",  age: 26, address: "1234 Park St."}
 var myPeople = [John, Al, Sue, Lucy]
+
+Stretch Challenges
