@@ -84,3 +84,18 @@ function printTriangle(length) {
 }
    
 printTriangle(3);
+
+//Challenge 9
+function printTriangle(length) {
+    for(i=0; i <= length; i++) {
+        
+        for (var asteric = "*"; asteric.length < i*2; asteric += " *") {}
+        var space = " ";
+        for (var k = 0; k < (length-i); k++) {
+            space += " ";
+        }
+        console.log(space + asteric);
+        }
+}
+   
+printTriangle(15);
