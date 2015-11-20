@@ -1,23 +1,79 @@
-Challenge 1- Name Changer
+Challenge 1
 
-$("a.user-mention").text("anonymous");
+/*
+  What needs to change so that the page says "Go!"?
+*/
 
-Challenge 2- Add some class
+$(document).ready(function(){
+  console.log( "The page says:", $("h1").text() );
+});
 
-$(".btn").addClass("btn-primary");
+$("h1").on("click", function handleClick(event){
+$("h1").text("Go!");
+});
 
-Challenge 3- It's Shruggy!
+//I believe this is correct
 
-$("table a.message").text("¯\\(ツ)/¯");
+if ( $("h1").text() === "Go!" ){
+  console.log( "The page says:", $("h1").text() );
+  console.log("Success!");
+} else {
+  console.log( 'Can you make it say "Go!"?' );
+}
 
-Challenge 4- I'm the captain now
+Challenge 2
+Submit
 
-$("#user-links").hide();
+base.js
 
-Challenge 5- One big family
+$(document).ready(function(){
 
-$("a.social-count").text("∞");
+  $("#time").text( Date.now() );
 
-Challenge 6-JustinHub!
+});
+
+$("form").hide();
+
+//Exercise might be looking for a different answer than this
+
+Challenge 3
+Change
+
+console.log("Sanity Check: JS is working!");
+
+$(document).ready(function(){
+
+  $("#time").text( Date.now() );
+
+});
+
+$("#total").on("change","input",function(){
+	return ($("#left").text(); + $("#right").text();
+});
+
+//Not right, but I believe this is the general idea
+//You want to aim for
+
+Challenge 4
+Click
+
+console.log("Sanity Check: JS is working!");
+
+$(document).ready(function(){
+
+});
+
+$("span").on("click", function(event){
+$("ul").text($(this));
+});
 
 
+/* Breon explained to me
+
+That you need a variable to contain the text
+for each span.
+
+Than you append your stored variable
+
+
+*/
