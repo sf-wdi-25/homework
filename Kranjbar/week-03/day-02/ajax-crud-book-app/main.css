@@ -1,0 +1,10 @@
+/* put custom styles in this file */
+
+body {
+  background-color: lightblue; /* sanity check */
+}
+
+img {
+	width: 100px;
+	height: 125px;
+}
